@@ -1,0 +1,75 @@
+#!/bin/bash
+
+read -p " Size of file in mb/kb is " Size
+
+read -p " Location is " loction
+wc -c < "$DeepuTest"
+
+size="$(wc -c <"$DeepuTest")"
+
+ls -l $location
+
+
+output..........
+
+$ bash DeepuTest.sh
+ Size of file in mb/kb is 300
+ Location is /bin/bash
+DeepuTest.sh: line 6: : No such file or directory
+DeepuTest.sh: line 8: : No such file or directory
+total 12193
+drwxr-xr-x 1 Deepali 197121       0 Feb 21 05:49 '3D Objects'
+drwxr-xr-x 1 Deepali 197121       0 Oct  1 19:52  AppData
+lrwxrwxrwx 1 Deepali 197121      32 Oct  1 19:50 'Application Data' -> /c/Users/Deepali/AppData/Roaming
+drwxr-xr-x 1 Deepali 197121       0 Feb 21 05:49  Contacts
+lrwxrwxrwx 1 Deepali 197121      60 Oct  1 19:50  Cookies -> /c/Users/Deepali/AppData/Local/Microsoft/Windows/INetCookies
+drwxr-xr-x 1 Deepali 197121       0 Feb 24 01:18  Deepu
+-rwxr-xr-x 1 Deepali 197121     162 Mar  2 05:17  DeepuTest.sh
+drwxr-xr-x 1 Deepali 197121       0 Mar  2 01:31  Desktop
+drwxr-xr-x 1 Deepali 197121       0 Feb 22 00:41  Documents
+drwxr-xr-x 1 Deepali 197121       0 Feb 28 11:48  Downloads
+drwxr-xr-x 1 Deepali 197121       0 Feb 24 04:37  EXaMPLEVS
+drwxr-xr-x 1 Deepali 197121       0 Feb 21 05:49  Favorites
+drwxr-xr-x 1 Deepali 197121       0 Feb 26 05:12  IdeaProjects
+drwxr-xr-x 1 Deepali 197121       0 Feb 21 05:49  Links
+lrwxrwxrwx 1 Deepali 197121      30 Oct  1 19:50 'Local Settings' -> /c/Users/Deepali/AppData/Local
+drwxr-xr-x 1 Deepali 197121       0 Oct  1 20:06  MicrosoftEdgeBackups
+drwxr-xr-x 1 Deepali 197121       0 Feb 21 05:49  Music
+lrwxrwxrwx 1 Deepali 197121      26 Oct  1 19:50 'My Documents' -> /c/Users/Deepali/Documents
+-rw-r--r-- 1 Deepali 197121 5505024 Feb 28 21:09  NTUSER.DAT
+-rw-r--r-- 1 Deepali 197121 1048576 Mar  1 21:46  NTUSER.DAT{cca49df3-03f8-11eb-a4ad-ffe9ff9d2d1f}.TxR.0.regtrans-ms
+-rw-r--r-- 1 Deepali 197121 1048576 Feb 28 22:10  NTUSER.DAT{cca49df3-03f8-11eb-a4ad-ffe9ff9d2d1f}.TxR.1.regtrans-ms
+-rw-r--r-- 1 Deepali 197121 1048576 Feb 28 22:10  NTUSER.DAT{cca49df3-03f8-11eb-a4ad-ffe9ff9d2d1f}.TxR.2.regtrans-ms
+-rw-r--r-- 1 Deepali 197121   65536 Mar  1 21:46  NTUSER.DAT{cca49df3-03f8-11eb-a4ad-ffe9ff9d2d1f}.TxR.blf
+-rw-r--r-- 1 Deepali 197121   65536 Oct  1 19:50  NTUSER.DAT{cca49df4-03f8-11eb-a4ad-ffe9ff9d2d1f}.TM.blf
+-rw-r--r-- 1 Deepali 197121  524288 Oct  1 19:50  NTUSER.DAT{cca49df4-03f8-11eb-a4ad-ffe9ff9d2d1f}.TMContainer00000000000000000001.regtrans-ms
+-rw-r--r-- 1 Deepali 197121  524288 Oct  1 19:50  NTUSER.DAT{cca49df4-03f8-11eb-a4ad-ffe9ff9d2d1f}.TMContainer00000000000000000002.regtrans-ms
+lrwxrwxrwx 1 Deepali 197121      68 Oct  1 19:50  NetHood -> '/c/Users/Deepali/AppData/Roaming/Microsoft/Windows/Network Shortcuts'
+drwxr-xr-x 1 Deepali 197121       0 Feb 24 01:31 'New folder'
+drwxr-xr-x 1 Deepali 197121       0 Feb 27 03:35  OneDrive
+drwxr-xr-x 1 Deepali 197121       0 Feb 21 05:49  Pictures
+lrwxrwxrwx 1 Deepali 197121      68 Oct  1 19:50  PrintHood -> '/c/Users/Deepali/AppData/Roaming/Microsoft/Windows/Printer Shortcuts'
+lrwxrwxrwx 1 Deepali 197121      57 Oct  1 19:50  Recent -> /c/Users/Deepali/AppData/Roaming/Microsoft/Windows/Recent
+drwxr-xr-x 1 Deepali 197121       0 Feb 21 05:49 'Saved Games'
+drwxr-xr-x 1 Deepali 197121       0 Feb 21 05:49  Searches
+drwxr-xr-x 1 Deepali 197121       0 Feb 24 04:49  SecondRepo
+lrwxrwxrwx 1 Deepali 197121      57 Oct  1 19:50  SendTo -> /c/Users/Deepali/AppData/Roaming/Microsoft/Windows/SendTo
+lrwxrwxrwx 1 Deepali 197121      61 Oct  1 19:50 'Start Menu' -> '/c/Users/Deepali/AppData/Roaming/Microsoft/Windows/Start Menu'
+-rw-r--r-- 1 Deepali 197121       0 Feb 28 23:36  Target.txt
+lrwxrwxrwx 1 Deepali 197121      60 Oct  1 19:50  Templates -> /c/Users/Deepali/AppData/Roaming/Microsoft/Windows/Templates
+drwxr-xr-x 1 Deepali 197121       0 Feb 21 05:49  Videos
+-rwxr-xr-x 1 Deepali 197121     336 Mar  1 23:49  add.sh
+-rwxr-xr-x 1 Deepali 197121      97 Mar  2 00:00  array.sh
+-rwxr-xr-x 1 Deepali 197121     117 Mar  1 22:31  basic.sh
+drwxr-xr-x 1 Deepali 197121       0 Feb 28 23:45  copy
+-rw-r--r-- 1 Deepali 197121      59 Mar  1 00:26  copy.txt
+drwxr-xr-x 1 Deepali 197121       0 Feb 24 03:30  deepika
+-rw-r--r-- 1 Deepali 197121   59863 Feb 18 21:43  java_error_in_idea64_6912.log
+-rw-r--r-- 1 Deepali 197121 1257472 Oct  1 19:50  ntuser.dat.LOG1
+-rw-r--r-- 1 Deepali 197121 1249280 Oct  1 19:50  ntuser.dat.LOG2
+-rw-r--r-- 1 Deepali 197121      20 Mar  1 21:18  ntuser.ini
+-rwxr-xr-x 1 Deepali 197121     148 Mar  1 23:29  owner.txt
+-rw-r--r-- 1 Deepali 197121     111 Mar  2 00:12  per.java
+-rw-r--r-- 1 Deepali 197121       0 Feb 28 23:17  sjjs.txt
+-rw-r--r-- 1 Deepali 197121      21 Mar  1 22:03  temp.txt
+
